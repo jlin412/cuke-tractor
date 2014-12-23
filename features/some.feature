@@ -1,5 +1,10 @@
 Feature: Some feature
 
+  Scenario: failed by protactor invalid path
+    Given I am on a angular website
+    When invalid css path is executed
+    Then something should not happen
+
   Scenario: fail via callback
     Given something happened
     When something fails via callback
@@ -12,5 +17,5 @@ Feature: Some feature
 
   Scenario: B
     Given something happened
-    When someting happens
+    When something happens
     Then something should happen

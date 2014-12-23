@@ -3,8 +3,14 @@ module.exports = function () {
     callback();
   });
 
-  this.When(/^someting happens$/, function (callback) {
-    callback();
+  i
+
+  this.When(/^I am on a angular website$/, function (callback) {
+    browser.get('http://angular.github.io/protractor/#/').then(callback);
+  });
+
+  this.When(/^invalid css path is executed$/, function (callback) {
+    $('css_bad_path').click().then(callback);
   });
 
   this.When(/^something fails via callback$/, function (callback) {
