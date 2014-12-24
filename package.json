@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "cucumber": "^0.4.6",
-    "protractor": "^1.5.0"
+    "protractor": "^1.5.0",
+    "chai": "^1.9.1",
+    "chai-as-promised": "^4.1.1"
   }
 }

@@ -2,6 +2,11 @@ Feature: Some feature
 
   Scenario: failed by protactor invalid path
     Given I am on a angular website
+    When failed inside then call
+    Then something should not happen
+
+  Scenario: failed by protractor inside then call
+    Given I am on a angular website
     When invalid css path is executed
     Then something should not happen
 
