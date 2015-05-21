@@ -1,6 +1,6 @@
 {
   "name": "cuke-tractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cucumber": "^0.4.6",
-    "protractor": "^1.5.0",
-    "chai": "^1.9.1",
-    "chai-as-promised": "^4.1.1"
+    "cucumber": "^0.4.8",
+    "protractor": "^2.1.0",
+    "chai": "^2.2.0",
+    "chai-as-promised": "^4.2.0"
   }
 }
