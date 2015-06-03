@@ -25,12 +25,14 @@ Feature: Some feature
     When something fails via callback in then function
     Then something should not happen
 
+  Scenario: failed by protractor inside then call via exception
+    Given I am on a angular website
+    When something fails via exception in then function
+    Then something should not happen
+
   Scenario: failed by protractor inside then call
     Given I am on a angular website
     When failed inside then call
     Then something should not happen
 
-  Scenario: failed by protractor inside then call via exception
-    Given I am on a angular website
-    When something fails via exception in then function
-    Then something should not happen
+

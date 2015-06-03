@@ -9,9 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cucumber": "^0.4.8",
+    "cucumber": "^0.4.9",
     "protractor": "^2.1.0",
+    "q": "^1.0.1",
     "chai": "^2.2.0",
-    "chai-as-promised": "^4.2.0"
+    "chai-as-promised": "^5.0.0"
   }
 }
