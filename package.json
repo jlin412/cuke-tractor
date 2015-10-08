@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cucumber": "^0.6.0",
-    "protractor": "^2.1.0",
+    "cucumber": "git+https://github.com/cucumber/cucumber-js.git#cr-removeDomain",
+    "protractor": "^2.5.0",
     "q": "^1.0.1",
     "chai": "^2.2.0",
     "chai-as-promised": "^5.0.0"
